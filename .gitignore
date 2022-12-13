@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/localbarunion432.github.io/v16
+/.vs/localbarunion432.github.io/config/applicationhost.config
+/.vs/slnx.sqlite
