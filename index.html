@@ -11,36 +11,16 @@
 </head>
 	<body class="is-preload">
 
-		<script src='fullcalendar/dist/index.global.js'></script>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-2HT7P82J1H"></script>
 		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
 
-			var calendar = new FullCalendar.Calendar(calendarEl, {
-			  // no plugin config required!
-			});
-
-            let calendar = new Calendar(calendarEl, {
-                plugins: [googleCalendarPlugin],
-                googleCalendarApiKey: 'AIzaSyAJIWOTJXnbeQUKQOk3efwLWHmIUCbJs5M',
-                events: {
-                    googleCalendarId: 'localbarunion432@gmail.com'
-                }
-			});
-
+		  gtag('config', 'G-2HT7P82J1H');
 		</script>
 
-		<style>
-
-            .ChangingLabel:after {
-                content: 'bar peeps';
-            }
-
-            .ChangingLabel:hover:after {
-                content: 'master mixologists';
-                font-size: small;
-				font-family: 'Comic Sans MS';
-            }
-
-		</style>
 		<!-- Wrapper -->
 			<div id="wrapper">
 
@@ -48,23 +28,10 @@
 				<header id="header">
 					<div>
 						<img src="images/LBUcrest_white.png" style="width:237px;height:200px;" />
-						<!--<span class="icon fa-gem"></span>-->
 					</div>
 					<div class="content">
 						<div class="inner">
-							<!--<h1>Local Bar Union 432</h1>-->
-							<!--<p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
-			for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>-->
-							<!--<section>
-				<ul class="actions" style="justify-content:center">
-					<li><a href="#policies" class="button">Policies</a></li>
-					<li><a href="#" class="button">Resources</a></li>
-					<li><a href="#contact" class="button">Contact</a></li>
-				</ul>
-			</section>-->
-
 							<p>
-								<!--A weekly bookclub for our local Greenville <asp:label class="ChangingLabel" id="lbBarPeeps"></asp:label>.<br />-->
 								Uniting the Greater Greenville area service industry workers<br />
 								by establishing a system to educate, empower, and support our community.<br />
 								<br />
@@ -76,10 +43,6 @@
 					</div>
 					<nav>
 						<ul>
-							<!--<li><a href="#intro">Intro</a></li>
-	<li><a href="#work">Work</a></li>
-	<li><a href="#about">About</a></li>-->
-							<!--<li><a href="#contact">The Gram</a></li>-->
 							<li><a href="#readings" class="fa fa-book" style="font-size:36px"></a></li>
 							<li><a href="#calendar" class="fa fa-calendar" style="font-size:36px"></a></li>
 							<li><a href="https://www.instagram.com/localbarunion432/" class="icon brands fa-instagram" style="font-size:36px"></a></li>
@@ -158,7 +121,6 @@
 						<!-- Calendar -->
 						<article id="calendar">
 							<h2 class="major">Calendar</h2>
-							<!--<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=UTC&src=bG9jYWxiYXJ1bmlvbjQzMkBnbWFpbC5jb20&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%2333B679&color=%230B8043" style="border:solid 1px #777" width="100%" height="500" frameborder="0" scrolling="no"></iframe>-->
 							<iframe src="https://embed.styledcalendar.com/#bIGOXckwuhvUkdNfLj2X" title="Styled Calendar" class="styled-calendar-container" style="width: 100%; border: none;" data-cy="calendar-embed-iframe"></iframe>
 							<script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
 						</article>
@@ -440,9 +402,9 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					</div>
 
 				<!-- Footer -->
-					<footer id="footer">
-						<!--<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>-->
-					</footer>
+				<footer id="footer">
+					<!--<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>-->
+				</footer>
 
 			</div>
 
